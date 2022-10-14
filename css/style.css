@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 76px;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  width: 100%;
+}
+
+.navbtn {
+  display: flex;
+}
+.navbrand {
+  display: flex;
+  font-style: normal;
+  font-weight: 700;
+  color: #000000;
+}
+.logo {
+  width: 10%;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  margin-left: -15px;
+}
+.fbr {
+  color: #1a839a;
+}
+.navlink {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  align-items: center;
+}
+
+.link {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  list-style: none;
+  align-items: center;
+}
+
+.home:hover {
+  border-bottom: 3px solid #1a839a;
+  font-weight: 600;
+}
+.about:hover {
+  border-bottom: 3px solid #1a839a;
+  font-weight: 600;
+}
+.project:hover {
+  border-bottom: 3px solid #1a839a;
+  font-weight: 600;
+}
+.social:hover {
+  border-bottom: 3px solid #1a839a;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+.btn {
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: #1a839a;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.btn:hover {
+  transition: 0.3s ease-in;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.34);
+}
+.homepage {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-template-rows: 1fr;
+}
+.nama {
+  font-size: 50px;
+}
+.text {
+  margin-top: 50px;
+}
+.paragraf {
+  font-size: 15px;
+  margin-top: 10px;
+  width: 70%;
+}
+.btn-contact {
+  padding: 15px 30px;
+  background-color: #1a839a;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 30px;
+  font-weight: 600;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.34);
+}
+.btn-project {
+  padding: 15px 15px;
+  background-color: #70d3ea;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  margin-left: 15px;
+}
+.btn-project:hover {
+  transition: 0.3s ease-in;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.34);
+}
+.gambar {
+  width: 500px;
+  height: 597px;
+  margin-top: 0px;
+}
+.jumbotron-img {
+  margin-top: 20px;
+}
